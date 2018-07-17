@@ -1,0 +1,13 @@
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+
+#firstClock {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 5em;
+	font-family: 'Orbitron', sans-serif;
+	color: green;
+	text-shadow: 0 0 5px #ffffff;
+}
