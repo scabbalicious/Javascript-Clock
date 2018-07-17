@@ -20,7 +20,7 @@ function currentTime() {
 	var time = h + ':' + m + ':' + s 
 	
 function colorTime() {
-var red = (h*(Math.round(Math.random()*5))).toString(16) // red value converted to base16
+var red = (h*(Math.round(Math.random()*10))).toString(16) // red value converted to base16
 var green = (m*(Math.round(Math.random()*4))).toString(16) // green value converted to base16
 var blue = (s*(Math.round(Math.random()*4))).toString(16) // blue value converted to base16
 
